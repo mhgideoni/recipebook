@@ -1,12 +1,67 @@
+/*
+Colours
+#4753d5 deep blue
+#eb6e80 blush
+#e24e42 papaya
+#e9b000 mustard
+#008f95 aqua
+*/
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: "#fffcef";
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.navbar {
-
+.header {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #e24e42;
+  color: white;
 }
 
-.nav-button {
+#navbar {
+  overflow: hidden;
+  background-color: #e9b000;
+  font-family: 'Josefin Sans', sans-serif;
 
+  width: 100%;
+  padding: 10px 16px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 16px;
+}
+
+#navbar a:hover {
+  color: #e24e42;
+}
+
+/*#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+.content {
+  padding: 10px 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #008f95;
 }

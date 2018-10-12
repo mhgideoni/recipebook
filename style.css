@@ -6,27 +6,30 @@ Colours
 #e9b000 mustard
 #008f95 aqua
 */
-
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
 }
 
 .header {
-  padding: 30px;
+  height: 12vmax;
+  padding: 30px 16px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #e24e42;
   color: white;
+  width: 100%;
+  background-image: url("vegetables.jpg");
+  background-size: cover;
 }
 
 #navbar {
   overflow: hidden;
   background-color: #e9b000;
   font-family: 'Josefin Sans', sans-serif;
-
   width: 100%;
-  padding: 10px 16px;
+  padding: 5px 16px;
 }
 
 #navbar a {
@@ -51,6 +54,15 @@ body {
 */
 .content {
   padding: 10px 30px;
+  float: left;
+}
+
+.sidebar {
+  position: relative;
+  float: right;
+  width: 25%;
+  min-width: 190px;
+  padding: 0 15px 20px 15px;
 }
 
 .sticky {
@@ -64,4 +76,11 @@ h1 {
   font-size: 40px;
   font-weight: 600;
   color: #008f95;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #008f95;
+  margin-top: 0;
 }
